@@ -1,0 +1,19 @@
+{
+  "name": "expressjs-crash-course",
+  "version": "1.0.0",
+  "description": "Crash course from Traversy Media on Express.js.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
